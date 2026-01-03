@@ -1,23 +1,10 @@
-```
-  __            _    _   _                   _     
- / _|_   _ _ _ | | _| |_(_) ___  _ __       (_)___ 
-| |_| | | | ' \| |/ / __| |/ _ \| '_ \      | / __|
-|  _| |_| | | ||   <| |_| | (_) | | | |  _  | \__ \
-|_|  \__,_|_| ||_|\_\\__|_|\___/|_| |_| (_)_/ |___/
-             |_|                          |__/     
-```
+# Neurosymbolic Music Generation
 
-```
-.・。.・゜✭・.・✫・゜・。.  VIBECODED  .・。.・゜✭・.・✫・゜・。.
-```
-*The human pointed, the LLM typed. Bugs are a collaboration.*
-*If something breaks, neither of us fully understood what we were doing.*
-*Works on my machine. Probably.*
-```
-・。.・゜✭・.・✫・゜・。.・。.・゜✭・.・✫・゜・。.・。.・゜✭・.・✫・゜
-```
+Browser-based system for AI-assisted music composition. LLMs write JavaScript that generates notes in real-time.
 
-Browser-based livecoding environment for algorithmic music. Write JavaScript functions that generate notes in real-time.
+"Neurosymbolic" in this case is a fancy way of saying: have an LLM write code that represents music. The neural part is the language model. The symbolic part is JavaScript.
+
+[Demo video](https://www.youtube.com/watch?v=vkNX7z25aWg)
 
 ## Why JavaScript for Music Generation
 
