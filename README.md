@@ -132,9 +132,9 @@ return (t, s) => {
 ```
 
 ## Future work. 
-
-- Have the LLMs listen through CLAP or multimodal llms.
-
+- Evolve better solutions. Use CLAP/Audio preference models as fitness.
+- Mixing, sound design. 
+- Deeper daw integration.
 ---
 
 *Vibecoded: the human pointed, the LLM typed.*
