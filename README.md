@@ -1,4 +1,4 @@
-# Neurosymbolic Music Generation
+# Neurosymbolic Music Generation - "Vibe Musicing"
 
 [![great work](https://img.shields.io/badge/great-work-gold)](https://github.com/erl-j/neurosymbolic-music-generation)
 [![YouTube](https://img.shields.io/badge/YouTube-demo-red?logo=youtube)](https://www.youtube.com/watch?v=vkNX7z25aWg)
