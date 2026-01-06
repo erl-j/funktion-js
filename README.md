@@ -1,14 +1,15 @@
-# Neurosymbolic Music Generation
+# vibejam
+Formely Neurosymbolic Music Generation, Vibe Musicing, Funktion.js
 
 [![great work](https://img.shields.io/badge/great-work-gold)](https://github.com/erl-j/neurosymbolic-music-generation)
 [![YouTube](https://img.shields.io/badge/YouTube-demo-red?logo=youtube)](https://www.youtube.com/watch?v=vkNX7z25aWg)
 [![tests](https://img.shields.io/badge/tests-0%20failing-brightgreen)](https://github.com/erl-j/neurosymbolic-music-generation)
 [![BibTeX](https://img.shields.io/badge/cite-BibTeX-blue)](#cite)
 
-LLMs are musical assistants. Coding large language models cooks every domain specific symbolic music generation model out there.
+Coding large language models cooks every domain specific symbolic music generation model out there if we let them express music as code.
 Why train a bespoke neural network on MIDI files when LLMS already understands rhythm, harmony, and structure through code? 
-To demonstrate this, this repository contains a  browserbased system for music composition. 
-Clone this repo, load it into an LLM-augmented code editor, and start jamming.
+To demonstrate this, this repository contains a  browser-based system for music composition. 
+Clone this repo, load it into an LLM-augmented code editor (I like cursor & claude opus 4.5), and start jamming.
 
 [![Demo Video](https://img.youtube.com/vi/vkNX7z25aWg/maxresdefault.jpg)](https://www.youtube.com/watch?v=vkNX7z25aWg)
 
@@ -18,7 +19,7 @@ Clone this repo, load it into an LLM-augmented code editor, and start jamming.
 
 | File | Description |
 |------|-------------|
-| `livecoding.html` | The browser-based music environment. Open this. |
+| `livecoding.html` | The browser-based music environment. Open this in a browser. |
 | `music.js` | Your composition. The server hot-reloads this on save. |
 | `server.js` | Optional. Enables hot-reload and sample loading. |
 | `pieces/` | Example compositions to learn from or remix. |
@@ -121,16 +122,24 @@ return (t, s) => {
 - [Barbarians at the Gate](https://www.imdb.com/title/tt0106356/) (1993) - James Garner plays Ross Johnson. Unrelated but excellent.
 - [Strudel](https://strudel.cc/) - Live coding music in the browser. Major inspiration for the UI and approach.
 
+## Other related work:
+
+- [Neuro-Symbolic Composition of Music with Talking Points](https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_45.pdf) Simon Colton et al.
+
 ## Cite
 
 ```bibtex
-@software{neurosymbolic-music-generation,
+@software{vibejam,
   author = {Jonason, Nicolas},
-  title = {Neurosymbolic Music Generation},
-  url = {https://github.com/erl-j/neurosymbolic-music-generation}
+  title = {vibejam},
+  url = {https://github.com/erl-j/vibejam}
 }
 ```
 
+## Future work. 
+- Evolve better solutions. Use CLAP/Audio preference models as fitness.
+- Mixing, sound design. 
+- Deeper daw integration.
 ---
 
 *Vibecoded: the human pointed, the LLM typed.*
